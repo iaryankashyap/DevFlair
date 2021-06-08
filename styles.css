@@ -113,7 +113,7 @@ header label{
     align-items: center;
     justify-content: center;
     background:url(../images/home-bg-img.png) no-repeat;
-    background-size: 20px;
+    background-size: cover;
     background-position: center;
 }
 
