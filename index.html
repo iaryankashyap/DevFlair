@@ -1,34 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <title>DevFlair</title>
-  
-  <!--  Styles  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Font Awesome-->
-  <script src="https://use.fontawesome.com/f28c2cb418.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFlair</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-   
-    <div class="container">
-        <div class="split left">
-          <h1>Designer</h1>
-          <a href="https://discord.gg/ATMzuy7jax" class="button">Join</a>
-        </div>
-        <div class="split right">
-          <h1>Programmer</h1>
-          <a href="https://discord.gg/ATMzuy7jax" class="button">Join</a>
-        </div>
-      </div>
+    
+<!-- header section starts  -->
 
-      <div class="se">
-          <p> DevFlair</p>
-      </div>
+<header>
 
-      <script src="script.js"></script>
+    <a href="#" class="logo"><span>Dev</span>Flair</a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Community Of <span>Developers!</span></h3>
+        <p>DevFlair aims to connect developers from different backgrounds so that they can collaborate on their ideas and learn together.</p>
+        <a href="#about" class="btn">Join Now</a>
+    </div>
+
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+
+</section>
+
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Features </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/f-icon1.png" alt="">
+            <h3>24x7 Support</h3>
+            
+        </div>
+
+        <div class="box">
+            <img src="images/f-icon2.png" alt="">
+            <h3>Text & Voice Channels</h3>
+            
+        </div>
+
+        <div class="box">
+            <img src="images/f-icon3.png" alt="">
+            <h3>Productive Discussion</h3>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<section class="pricing" id="about">
+
+    <h1 class="heading"> Join Now </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">Discord</h3>
+            
+            <ul>
+                <li> <i class="fas fa-check"></i> 24x7 Support </li>
+                <li> <i class="fas fa-check"></i> Content Moderation </li>
+                <li> <i class="fas fa-check"></i> Healthy Discussions </li>
+                
+            </ul>
+            <a href="https://discord.gg/ATMzuy7jax" class="btn">Join</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">GitHub</h3>
+            
+            <ul>
+                <li> <i class="fas fa-check"></i> Open Source </li>
+                <li> <i class="fas fa-check"></i> Community Support </li>
+                <li> <i class="fas fa-check"></i> Community Roles </li>
+                
+            </ul>
+            <a href="https://github.com/DevFlair" class="btn">Join</a>
+        </div>
+
+       
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="images/contact-img.png" alt="">
+    </div>
+
+    <form action="">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>name</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>email</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="number" required>
+            <label>phone</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>message</label>
+        </div>
+
+        <a href="contact.html"><button class="btn">Send</button></a>
+
+    </form>
+
+</section>
+
+
+
+<div class="cp">
+<p class="c" style="align-items: center;">Copyright 2021 DevFlair</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
